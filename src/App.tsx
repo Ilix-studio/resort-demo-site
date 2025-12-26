@@ -6,6 +6,7 @@ import { BookingForm } from "./HomeComponents/Feature/Booking/BookingForm";
 
 import { RoomsGrid } from "./HomeComponents/Feature/Rooms/RoomsGrid";
 import { useEffect } from "react";
+import AdminDashboard from "./AdminComponent/Dash";
 
 const App = () => {
   const location = useLocation();
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/amenities' element={<AmenitiesGrid />} />
         <Route path='/booking' element={<BookingForm />} />
         <Route path='/contact' element={<Home />} />
+        <Route path='/dashboard' element={<AdminDashboard />} />
       </Routes>
     </>
   );
