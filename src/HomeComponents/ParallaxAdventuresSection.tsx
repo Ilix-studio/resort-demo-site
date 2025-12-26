@@ -56,16 +56,18 @@ export function ParallaxAdventuresSection() {
 
           <div className='bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300'>
             <div className='text-5xl mb-4'>🚣</div>
-            <h3 className='text-2xl font-bold text-black mb-3'>Water Sports</h3>
+            <h3 className='text-2xl font-bold text-black mb-3'>Jeep Safari</h3>
             <p className='text-gray-700 leading-relaxed'>
-              Kayaking, paddleboarding, and swimming in crystal-clear waters.
-              Equipment and instruction provided.
+              Explore the wilderness in comfort with our guided jeep safaris.
+              Spot wildlife and discover hidden gems throughout the region.
             </p>
           </div>
 
           <div className='bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300'>
             <div className='text-5xl mb-4'>🌅</div>
-            <h3 className='text-2xl font-bold text-black mb-3'>Scenic Tours</h3>
+            <h3 className='text-2xl font-bold text-black mb-3'>
+              Elephant Safari
+            </h3>
             <p className='text-gray-700 leading-relaxed'>
               Curated cultural and nature tours showcasing the rich heritage and
               natural wonders of the region.

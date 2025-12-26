@@ -40,7 +40,7 @@ export function Navbar() {
             <span
               className={`hidden sm:inline font-semibold transition-colors duration-300 ${logoTextClasses}`}
             >
-              Luminaire
+              Kaziranga Resort
             </span>
           </Link>
 

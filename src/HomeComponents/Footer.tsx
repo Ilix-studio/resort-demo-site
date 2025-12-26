@@ -12,7 +12,7 @@ export function Footer() {
               <div className='w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center'>
                 <span className='text-primary font-bold text-lg'>L</span>
               </div>
-              <span className='font-semibold text-lg'>Luminaire</span>
+              <span className='font-semibold text-lg'>Kaziranga Resort</span>
             </div>
             <p className='text-primary-foreground/80 leading-relaxed text-sm'>
               Experience unparalleled luxury and timeless elegance at our
@@ -137,7 +137,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className='border-t border-primary-foreground/20 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4'>
           <p className='text-primary-foreground/80 text-sm'>
-            © 2025 Luminaire Resort. All rights reserved.
+            © 2025 Kaziranga Resort Resort. All rights reserved.
           </p>
           <div className='flex gap-6'>
             <a
