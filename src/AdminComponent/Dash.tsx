@@ -9,7 +9,7 @@ export default function AdminDashboard() {
       <br />
       <div className='space-y-8'>
         <div>
-          <h1 className='text-3xl font-bold tracking-tight'>Dashboard</h1>
+          <h1 className='text-3xl font-bold tracking-tight'>Demo Dashboard</h1>
           <p className='text-muted-foreground mt-2'>
             Welcome back! Here's an overview of your resort's activity.
           </p>

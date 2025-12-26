@@ -1,34 +1,16 @@
-import { useEffect, useState } from "react";
 import heroImage from "../assets/background/pexelsA.jpg";
 
 export function ParallaxExperienceSection() {
-  const [offset, setOffset] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setOffset(window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <section className='relative w-full py-24 overflow-hidden bg-white'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-0 items-stretch min-h-[500px]'>
-        {/* Left: Parallax Background Image */}
-        <div className='relative h-96 lg:h-auto lg:min-h-[500px] overflow-hidden'>
+        {/* Left: Image */}
+        <div className='relative h-96 lg:h-auto lg:min-h-[500px]'>
           <img
             src={heroImage}
             alt='Wellness and relaxation experience'
-            className='absolute w-full object-cover'
-            style={{
-              height: "130%",
-              top: "-15%",
-              transform: `translateY(${offset * 0.1}px)`,
-            }}
+            className='absolute inset-0 w-full h-full object-cover'
           />
-          <div className='absolute inset-0 bg-black/20' />
         </div>
 
         {/* Right: Content */}

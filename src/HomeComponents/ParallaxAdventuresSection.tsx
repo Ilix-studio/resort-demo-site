@@ -55,7 +55,7 @@ export function ParallaxAdventuresSection() {
           </div>
 
           <div className='bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300'>
-            <div className='text-5xl mb-4'>🚣</div>
+            <div className='text-5xl mb-4'>🚙</div>
             <h3 className='text-2xl font-bold text-black mb-3'>Jeep Safari</h3>
             <p className='text-gray-700 leading-relaxed'>
               Explore the wilderness in comfort with our guided jeep safaris.
@@ -64,13 +64,13 @@ export function ParallaxAdventuresSection() {
           </div>
 
           <div className='bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow duration-300'>
-            <div className='text-5xl mb-4'>🌅</div>
+            <div className='text-5xl mb-4'>🐘</div>
             <h3 className='text-2xl font-bold text-black mb-3'>
               Elephant Safari
             </h3>
             <p className='text-gray-700 leading-relaxed'>
-              Curated cultural and nature tours showcasing the rich heritage and
-              natural wonders of the region.
+              Experience the magic of wildlife encounters with our guided
+              elephant safaris. natural wonders of the region.
             </p>
           </div>
         </div>
