@@ -100,7 +100,9 @@ export function Footer() {
 
           {/* Follow Us */}
           <div>
-            <h3 className='font-semibold mb-6 text-lg'>Follow Us</h3>
+            <Link to='/dashboard'>
+              <h3 className='font-semibold mb-6 text-lg'>Follow Us</h3>
+            </Link>
             <div className='flex gap-4'>
               <a
                 href='#'
