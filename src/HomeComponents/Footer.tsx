@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <div className='flex items-center space-x-2 mb-6'>
               <div className='w-8 h-8 bg-primary-foreground rounded-sm flex items-center justify-center'>
-                <span className='text-primary font-bold text-lg'>L</span>
+                <span className='text-primary font-bold text-lg'>K</span>
               </div>
               <span className='font-semibold text-lg'>Kaziranga Resort</span>
             </div>
